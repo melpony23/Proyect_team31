@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Mohave:wght@300&display=swap" rel="stylesheet">
+  <%= stylesheet_link_tag 'styles' %>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Nuestro team: grupo 31</h1>
+        </div>
+    </header>
+    <div id="imagenes">
+        <div class="image-container">
+            <div class="image-item">
+                <img src="<%= image_path('carlos.png') %>" alt="Imagen de ejemplo">
+                <p id="nombre">Carlos Bravo</p>
+                <p>carlos12bravo@uc.cl</p>
+                <br />
+                <a href="https://github.com/carlos12b">
+                    <img src="<%= image_path('github.png') %>" alt="Imagen de ejemplo" style="max-width: 40px;">
+                </a>
+            </div>
+            <div class="image-item">
+                <img src="<%= image_path('mel.png') %>" alt="Imagen de ejemplo">
+                <p id="nombre">Melanie Castillo</p>
+                <p>mmcastillo1@uc.cl</p>
+                <br />
+                <a href="https://github.com/melpony23">
+                    <img src="<%= image_path('github.png') %>" alt="Imagen de ejemplo" style="max-width: 40px;">
+                </a>
+            </div>
+            <div class="image-item">
+                <img src="<%= image_path('jose.png') %>" alt="Imagen de ejemplo">
+                <p id="nombre">Jose Tapia</p>
+                <p>jatapia4@uc.cl</p>
+                <br />
+                <a href="https://github.com/Tapiocan">
+                    <img src="<%= image_path('github.png') %>" alt="Imagen de ejemplo" style="max-width: 40px;">
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #B3CEF7; 
+    color: #000000;
+    padding: 0.05em;
+  }
+
+  .header-container {
+    max-width: 500px; 
+    margin: 0 auto; 
+  }
+  
+  h1 {
+    font-size: 37px; 
+    text-align: center;
+    font-family: 'Bayon', sans-serif;
+  }
+
+#imagenes {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding-top: 0;
+  }
+  
+  .image-container {
+    display: flex;
+  }
+  
+  .image-item {
+    text-align: center;
+    margin: 0 10px; 
+  }
+  
+  .image-item img {
+    max-width: 40%;
+    height: auto;
+  }
+  
+  .image-item p {
+    margin: 0; 
+    padding: 0;  
+  }
+  
+  #nombre {
+    font-family: 'Bayon', sans-serif;
+    font-size: 25px;
+  }
+
+  p{
+    font-family: 'Mohave', sans-serif;
+    font-size: 20px;
+  }
